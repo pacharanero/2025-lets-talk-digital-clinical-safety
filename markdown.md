@@ -8,10 +8,6 @@
 
 -----
 
-## **NOTHING** IN THIS PRESENTATION IS "CUTTING EDGE", IT IS ALL BASED ON USING STANDARD SOFTWARE DEVELOPMENT PRACTICES FOR MANAGING CLINICAL SAFETY INFORMATION
-
------
-
 # CLINICAL SAFETY
 # SHOULD BE BETTER <!-- .element: class="fragment fade-in" -->
 # IN 2025
@@ -40,7 +36,6 @@
 ### manage hazards in an Excel spreadsheet?
 [![img/excel-hazard-template.png](img/excel-hazard-template.png)](https://digital.nhs.uk/services/clinical-safety/documentation)
 
-
 ---
 
 ### hide them in your sharepoint?
@@ -48,13 +43,14 @@
 
 ---
 
-## what do they do internally at NHS digital/england/NHSX/DHSC?
+### What do they do internally for clinical safety at NHS digital/england/NHSX/DHSC?
 
-### no central orgs have a good system for this <!-- .element: class="fragment fade-in" -->
+### No central orgs have a good system for this <!-- .element: class="fragment fade-in" -->
 
 ---
 
-### See what the rest of the industry does?
+### Hmm.
+### What does the rest of the industry do?
 [![img/attend-anywhere-csc-request.png](img/attend-anywhere-csc-request.png)](https://discourse.digitalhealth.net/t/attend-anywhere/32944)
 
 -----
@@ -96,14 +92,7 @@
 
 ---
 
-## Clinical Safety 'Theatre'
-
-### I would argue that current practice, while compliant with the legal requirements, is not really contributing to patient safety as much as it could be, and thus could be considered clinical safety 'theatre'
-
-
----
-
-### Daylight is the Best Disinfectant
+## Daylight is the Best Disinfectant
 
 #### When documentation is public, everyone can see it - which means there's no 'hiding' an inconvenient hazard <!-- .element: class="fragment" --> 
 #### Important hazards identified by one org can be seen and mitigated by others <!-- .element: class="fragment" -->
@@ -115,14 +104,12 @@
 
 ---
 
-### We want safety processes that
-#### Actually make the software safer <!-- .element: class="fragment" -->
-#### Are close to the code itself <!-- .element: class="fragment" -->
-#### Evolve with the software <!-- .element: class="fragment" -->
-#### Are transparent by default <!-- .element: class="fragment" -->
-#### Careful understanding of hazards <!-- .element: class="fragment" -->
-#### Hazard workshops and the resulting actions <!-- .element: class="fragment" -->
-#### Working out what needs to change <!-- .element: class="fragment" -->
+## I want a safety process that
+### Actually makes the software safer <!-- .element: class="fragment" -->
+#### Is close to the code itself <!-- .element: class="fragment" -->
+#### Evolves with the software <!-- .element: class="fragment" -->
+#### Is transparent by default <!-- .element: class="fragment" -->
+#### Can be federated up and down between organisations <!-- .element: class="fragment" -->
 
 -----
 
@@ -131,9 +118,9 @@
 
 ---
 
-[git](https://git-scm.com/) - **version control** and **attribution**
+[git](https://git-scm.com/) - for **version control** and **attribution**
 
-[github](https://github.com/) - use GitHub Issues for the **Hazards**
+[github](https://github.com/) - using GitHub Issues for the **Hazards**
 
 [markdown](https://en.wikipedia.org/wiki/Markdown) - all the content is written in a simple text format
 
@@ -141,11 +128,13 @@
 
 [PUBLISH!](https://growth.rcpch.ac.uk)
 
----
+-----
 
-## Markdown & MkDocs GitHub Template repo
-
-### [csmf-mkdocs-template](https://github.com/turva-uk/csmf-mkdocs-template)
+## DCB0129/0160 Template Repository
+#### [csmf-mkdocs-template](https://github.com/turva-uk/csmf-mkdocs-template)
+#### one click to create your own copy of a clinical safety management file repository
+#### a few edits to customise to your org and project
+#### one click to publish as a website
 
 ---
 
@@ -173,11 +162,37 @@
 
 -----
 
-# BUT IT'S ALL TOO TECHY
+# IT'S TOO TECHY ISN'T IT?
 
 ---
 
+## We're not done yet!
 
+#### Wrap this in an easier layer for non-technical users
+#### Web-based UI to create, edit, and share safety docs
+#### Open up the safety cases → Public accountability  
+#### 'Federating' clinical safety cases up and down
+
+---
+
+#### federation of a local clinical safety case
+[![img/local.png](img/local.png)]()
+
+---
+
+#### federate upwards to, or downwards from, regional
+[![img/local-regional.png](img/local-regional.png)]()
+
+---
+
+#### federate upwards to, or downwards from, national
+[![img/local-regional-national.png](img/local-regional-national.png)]()
+
+---
+
+## [Turva](https://turva.org/) - clinical safety done right
+
+[![img/turva-website.png](img/turva-website.png)](https://turva.org/)
 
 -----
 
