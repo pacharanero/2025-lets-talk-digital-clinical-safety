@@ -27,182 +27,23 @@
   <body>
     <div class="reveal">
       <div class="slides">
+        <section data-auto-animate>
+          <h1>Let's Talk</h1>
+          <h1>Digital</h1>
+          <h3>Making Clinical Safety Better</h3>
+          <h4>October 2025</h4>
+        </section>
+        <section data-auto-animate>
+          <h1>Let's Talk</h1>
+          <h1>Clinical Safety</h1>
+          <h3>Making Clinical Safety Better</h3>
+          <h4>October 2025</h4>
+        </section>
         <section
-          data-markdown
+          data-markdown="markdown.md"
           data-separator="-----"
           data-separator-vertical="---"
-        >
-          <textarea data-template>
-            # Let's Talk Digital
-            # Clinical Safety <!-- .element: class="fragment fade-in" -->
-
-            ### Making Clinical Safety Better
-            #### October 2025
-
-            -----
-
-            # DR MARCUS BAW
-            ### 'GENERAL HACKTITIONER'
-            ### OPEN SOURCE CAMPAIGNER
-            ### CLINICAL SAFETY OFFICER
-            ### SOFTWARE DEVELOPER @ RCPCH INCUBATOR
-            ### PAST CHAIR @ RCGP HEALTH INFORMATICS GROUP
-
-            -----
-
-            ## What's Wrong with Current Practice?
-
-            ---
-
-            ### The Traditional NHS Digital Way
-
-            - Download templates from NHS England <!-- .element: class="fragment" -->
-            - Fill in Word documents and Excel spreadsheets <!-- .element: class="fragment" -->
-            - Long-winded, bureaucratic process <!-- .element: class="fragment" -->
-            - Discourages iteration <!-- .element: class="fragment" -->
-
-            ---
-
-            ### Clinical Safety Cases Are Hidden
-
-            - Usually not published <!-- .element: class="fragment" -->
-            - Cannot be reused <!-- .element: class="fragment" -->
-            - No independent verification <!-- .element: class="fragment" -->
-            - No peer review possible <!-- .element: class="fragment" -->
-
-            ---
-
-            ### This Allows Poor Standards
-
-            - Manufacturers get away with substandard documentation <!-- .element: class="fragment" -->
-            - Never subject to scrutiny <!-- .element: class="fragment" -->
-            - Trust safety officers argue alone, in secret <!-- .element: class="fragment" -->
-            - No "cold light of day" <!-- .element: class="fragment" -->
-
-            ---
-
-            ### Daylight is the Best Disinfectant
-
-            > When documentation is private, there's no external pressure to raise standards
-
-            Note: The lack of transparency fundamentally weakens the system
-
-            -----
-
-            ## What Should We Be Working Towards?
-
-            ---
-
-            ### A Better World
-
-            - Every piece of clinical software should have a publicly displayed clinical safety case <!-- .element: class="fragment" -->
-            - Published on a website <!-- .element: class="fragment" -->
-            - Downloadable by anyone - even non-users <!-- .element: class="fragment" -->
-            - Like Freedom of Information Act access <!-- .element: class="fragment" -->
-
-            ---
-
-            ### Current Reality vs. Vision
-
-            **As it stands:**
-            - Clinical safety cases are private <!-- .element: class="fragment" -->
-            - Hazard logs are especially private <!-- .element: class="fragment" -->
-            - Never seen in public <!-- .element: class="fragment" -->
-
-            **We need:**
-            - Transparency as the default <!-- .element: class="fragment" -->
-            - Public accountability <!-- .element: class="fragment" -->
-
-            -----
-
-            ## What Can We Do Better?
-
-            ---
-
-            ### Make It Easier to Get Started
-
-            - Template repository for quick setup <!-- .element: class="fragment" -->
-            - Same words as NHS templates <!-- .element: class="fragment" -->
-            - No copy-paste nightmare <!-- .element: class="fragment" -->
-            - Uses Material for MkDocs macros <!-- .element: class="fragment" -->
-
-            ---
-
-            ### Make It Easier to Publish
-
-            - Add your project details <!-- .element: class="fragment" -->
-            - Push to GitHub <!-- .element: class="fragment" -->
-            - Publish on GitHub Pages <!-- .element: class="fragment" -->
-            - All in just a few minutes <!-- .element: class="fragment" -->
-
-            Note: I might even show a live demo!
-
-            ---
-
-            ### But Templates Aren't Enough
-
-            - Still a bit techy <!-- .element: class="fragment" -->
-            - Clunky for non-GitHub users <!-- .element: class="fragment" -->
-            - Need an easier, automated layer <!-- .element: class="fragment" -->
-
-            -----
-
-            ## The Real Work Isn't Documentation
-
-            ---
-
-            ### What Actually Matters
-
-            - Considering hazards <!-- .element: class="fragment" -->
-            - Running workshops <!-- .element: class="fragment" -->
-            - Working out what needs to change <!-- .element: class="fragment" -->
-            - Making the app actually safer <!-- .element: class="fragment" -->
-
-            ---
-
-            ### Static vs. Living Documents
-
-            **Static documents** that just "say how safe an app is" are basically a waste of time <!-- .element: class="fragment" -->
-
-            **We need living, dynamic documents** that help teams build safer software <!-- .element: class="fragment" -->
-
-            ---
-
-            ### Excel Spreadsheets Are Comically Bad
-
-            > The idea that hazards would be a row in an Excel spreadsheet is almost comically rubbish
-
-            We need: <!-- .element: class="fragment" -->
-            - Collaboration <!-- .element: class="fragment" -->
-            - Iteration <!-- .element: class="fragment" -->
-            - Real-time improvement <!-- .element: class="fragment" -->
-
-            -----
-
-            ## The Vision
-
-            ### Safety processes that:
-            - Support the development team <!-- .element: class="fragment" -->
-            - Evolve with the software <!-- .element: class="fragment" -->
-            - Are transparent by default <!-- .element: class="fragment" -->
-            - Actually make apps safer <!-- .element: class="fragment" -->
-
-            -----
-
-            ## Questions?
-
-            Note: Ready for discussion and demo
-
-            -----
-
-            ## made with
-
-            #### [reveal.js](https://github.com/hakimel/reveal.js)
-            #### and
-            #### [CREATE-NEW-REVEAL.JS](https://github.com/pacharanero/create-new-revealjs-template)
-
-          </textarea>
-        </section>
+        ></section>
       </div>
     </div>
 
@@ -217,6 +58,7 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
+        autoAnimate: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom],
