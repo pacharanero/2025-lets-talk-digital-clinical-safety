@@ -160,19 +160,6 @@
 #### your developers all have some way to flag Issues
 #### just hook into these for clinical safety
 
------
-
-# IT'S TOO TECHY ISN'T IT?
-
----
-
-## We're not done yet!
-
-#### Wrap this in an easier layer for non-technical users
-#### Web-based UI to create, edit, and share safety docs
-#### Open up the safety cases → Public accountability  
-#### 'Federating' clinical safety cases up and down
-
 ---
 
 #### federation of a local clinical safety case
@@ -187,6 +174,19 @@
 
 #### federate upwards to, or downwards from, national
 [![img/local-regional-national.png](img/local-regional-national.png)]()
+
+-----
+
+# IT'S TOO TECHY ISN'T IT?
+
+---
+
+## We're not done yet!
+
+#### Wrap this in an easier layer for non-technical users
+#### Web-based UI to create, edit, and share safety docs
+#### Open up the safety cases → Public accountability  
+#### 'Federating' clinical safety cases up and down
 
 ---
 
